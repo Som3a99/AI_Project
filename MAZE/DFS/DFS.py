@@ -88,7 +88,7 @@ if __name__ == '__main__':
     maze_obj = maze(10, 10)
 
     # Create a maze with a starting point at (2,4) and a dark theme
-    maze_obj.CreateMaze(theme = COLOR.dark)
+    maze_obj.CreateMaze(loadMaze = 'Maze.csv', theme = COLOR.dark)
 
     # Add text labels to the maze object
     total_cells_label = textLabel(maze_obj, 'Total cells  ', maze_obj.rows * maze_obj.cols)
