@@ -10,6 +10,8 @@ The function uses two lists to keep track of the explored and frontier cells, an
 
 The function iterates through the frontier cells using a stack data structure (last-in first-out), and checks if the current cell is the goal cell. If not, it adds the adjacent cells that are not walls and not explored to the frontier and explored lists, and updates the path dictionaries. The function returns the list of cells visited during the search, and the two path dictionaries.
 
+[![DFS.png](https://i.postimg.cc/5tSxzrbq/DFS.png)](https://postimg.cc/8FsQQtFj)
+
 you can run the program using:
 
 ```command

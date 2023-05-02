@@ -12,6 +12,8 @@ The function iterates through the frontier cells using a priority queue data str
 
 The function continues to explore the frontier cells until it reaches the goal cell or until there are no more cells to explore. The function returns the list of cells visited during the search, and the two path dictionaries.
 
+[![UCS.png](https://i.postimg.cc/90R5Lg5k/UCS.png)](https://postimg.cc/MfSFTDG0)
+
 you can run the program using:
 
 ```command

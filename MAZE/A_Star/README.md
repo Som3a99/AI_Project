@@ -10,6 +10,8 @@ The function uses two lists to keep track of the explored and frontier cells, an
 
 The function iterates through the frontier cells using a priority queue data structure, sorted by the sum of the cost of the path from the start to the current cell and the estimated cost of the path from the current cell to the goal cell. If the current cell is the goal cell, the function returns the path from the start to the goal, and the number of steps taken by the agent. If not, it adds the adjacent cells that are not walls and not explored to the frontier and explored lists, and updates the path and heuristic dictionaries. The function returns the list of cells visited during the search, and the two path dictionaries.
 
+[![AStar.png](https://i.postimg.cc/x1SDPPss/AStar.png)](https://postimg.cc/ppk6WKM8)
+
 you can run the program using:
 
 ```command
